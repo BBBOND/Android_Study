@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="link_text"><a href="tel:10010">打电话</a></string>
+</resources>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alertDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/alertDialogItemsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog_Items"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/alertDialogCheckboxesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog_Checkboxes"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/alertDialogRadioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog_Radio"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/progressDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/customDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomDialog"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/datePickerDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DatePickerDialog"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/submenu_1"
+                android:title="打开" />
+            <item
+                android:id="@+id/submenu_2"
+                android:title="保存" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"
+        android:orderInCategory="104"
+        android:title="啦啦啦"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:id="@+id/group1">
+                <item
+                    android:id="@+id/groupItem1"
+                    android:title="嘻嘻嘻" />
+            </group>
+            <group android:id="@+id/group2">
+                <item
+                    android:id="@+id/groupItem2"
+                    android:title="哈哈哈" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

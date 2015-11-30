@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/commonbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通按钮" />
+
+    <Button
+        android:id="@+id/imagebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/emo_1"
+        android:gravity="top"
+        android:text="图片按钮" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/emo_1"
+            android:text="按钮1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="30dp"
+            android:drawableTop="@drawable/emo_2"
+            android:text="按钮2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/emo_3"
+            android:drawableTop="@drawable/emo_4"
+            android:text="按钮3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/emo_5"
+            android:drawablePadding="10dp"
+            android:text="按钮4" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="单选按钮RadioGroup"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/sex_RG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sex_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择性别"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="开关按钮ToggleButton"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/TBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textOff="关闭"
+            android:textOn="打开" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+package com.kim.http.utils;
+
+/**
+ * Created by KIM on 2015/8/3.
+ */
+public class Userinfo {
+    private String userName;
+    private String userPassword;
+
+    public Userinfo() {
+    }
+
+    public Userinfo(String userName, String userPassword) {
+        this.userName = userName;
+        this.userPassword = userPassword;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPassword() {
+        return userPassword;
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
+    }
+
+    @Override
+    public String toString() {
+        return "Userinfo{" +
+                "userName='" + userName + '\'' +
+                ", userPassword='" + userPassword + '\'' +
+                '}';
+    }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!--通过权重分割宽度-->
+        <!--权重为1与下面的一样于是平分宽度-->
+        <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="哈哈哈"/>
+
+        <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="呵呵呵"/>
+
+    </TableRow>
+</TableLayout>

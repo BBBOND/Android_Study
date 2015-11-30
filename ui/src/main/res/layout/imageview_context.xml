@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="scaleType:center为缩放，放在ImageView的中心" />
+
+    <TextView
+        android:id="@+id/img1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:scaleType="center"
+        android:src="@drawable/cover" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="scaleType:fitCenter 按比例缩放" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ff0"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cover" />
+
+
+    <Button
+        android:id="@+id/imgBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <Button
+        android:id="@+id/imgBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片进行裁剪" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/img4TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/img4SeekBar1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:max="200"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/img4TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/img4SeekBar2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:max="360"
+        android:progress="0" />
+
+
+    <ImageView
+        android:id="@+id/internetIMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/internetEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/netIMGBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取网络图片" />
+</LinearLayout>
