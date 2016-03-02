@@ -47,7 +47,7 @@ android的基础学习
         6. 如果`responseCode==200`表示服务器成功处理，则通过`conn.getInputStream()`获取输入流
         7. 最后通过`InputStream`获取传输的数据
     * HttpPost：
-        1. 
+        1. 通过路径获得`URL`类
 
 
 
