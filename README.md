@@ -46,10 +46,32 @@ android的基础学习
         5. 通过`conn.getResponseCode()`获得链接状态代码
         6. 如果`responseCode==200`表示服务器成功处理，则通过`conn.getInputStream()`获取输入流
         7. 最后通过`InputStream`获取传输的数据
+</br></br>
     * HttpPost：
         1. 通过路径获得`URL`类
-
-
+        2. 通过使用`url.openConnection()`获取`HttpURLConnection`
+        3. 通过`conn.setConnectTimeout(Timeout)`设置连接超时时间
+        4. 连接时设置 `conn.setRequestMethod(Method)` 为`"GET"`，即可实现GET方式访问
+        5. 获取`OutputStreamWriter`(输出流)，通过`BufferedWriter`向输出流中写入需要传递的参数
+        6. 通过`conn.getInputStream()`获取输入流
+        7. 最后通过`InputStream`获取传输的数据
+</br></br>
+    * HttpClientGet：
+        1. 使用`new DefaultHttpClient()`获取`HttpClient`对象
+        2. 使用`new HttpGet(URL_PATH)`获取`HttpGet`对象
+        3. 执行`client.execute(httpGet)`即可获得`HttpResponse`对象
+        4. 通过`httpResponse.getEntity()`获得`HttpEntity`对象
+        5. 可以使用`EntityUtils`类的`toXxxx(httpEntity)`方法将`HttpEntity`类转化为对应来行的数据
+</br></br>
+    * HttpClientPost
+        1. 使用`new DefaultHttpClient()`获取`HttpClient`对象
+        2. 使用`new HttpPost(URL_PATH)`获取`HttpPost`对象
+        3. 使用`List<BasicNameValuePair>`保存传输的参数
+        4. `list`中插入的类型为`BasicNameValuePair`
+        5. 使用`new UrlEncodedFormEntity(list)`将`list`转化为`HttpEntity`对象
+        6. 使用`httpPost.setEntity(httpEntity)`设置参数
+        7. 通过`httpResponse.getEntity()`获得`HttpEntity`对象
+        8. 可以使用`EntityUtils`类的`toXxxx(httpEntity)`方法将`HttpEntity`类转化为对应来行的数据
 
 
 
