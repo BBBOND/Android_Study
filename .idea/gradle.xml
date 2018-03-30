@@ -3,7 +3,7 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/.gradle/2.2" />
         <option name="modules">
@@ -24,30 +24,11 @@
             <option value="$PROJECT_DIR$/sms" />
             <option value="$PROJECT_DIR$/ui" />
             <option value="$PROJECT_DIR$/usingsqlite" />
+            <option value="$PROJECT_DIR$/widget" />
             <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/dail" />
-            <option value="$PROJECT_DIR$/dialogs" />
-            <option value="$PROJECT_DIR$/handler" />
-            <option value="$PROJECT_DIR$/http" />
-            <option value="$PROJECT_DIR$/intent" />
-            <option value="$PROJECT_DIR$/json" />
-            <option value="$PROJECT_DIR$/layout" />
-            <option value="$PROJECT_DIR$/loadermanager" />
-            <option value="$PROJECT_DIR$/menu" />
-            <option value="$PROJECT_DIR$/notifications" />
-            <option value="$PROJECT_DIR$/processesandthreads" />
-            <option value="$PROJECT_DIR$/save" />
-            <option value="$PROJECT_DIR$/sms" />
-            <option value="$PROJECT_DIR$/ui" />
-            <option value="$PROJECT_DIR$/usingsqlite" />
-            <option value="$PROJECT_DIR$/xml" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

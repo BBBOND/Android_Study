@@ -1,1 +1,1 @@
-include ':dail', ':sms', ':layout', ':usingsqlite', ':intent', ':http', ':xml', ':json', ':ui', ':save', ':menu', ':dialogs', ':loadermanager', ':processesandthreads', ':handler', ':notifications'
+include ':dail', ':sms', ':layout', ':usingsqlite', ':intent', ':http', ':xml', ':json', ':ui', ':save', ':menu', ':dialogs', ':loadermanager', ':processesandthreads', ':handler', ':notifications', ':widget'

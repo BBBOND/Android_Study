@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             builder.setContentIntent(contentIntent);
             builder.setContentTitle("Notification Test");
             builder.setContentText("Hello world!");
-            builder.setSmallIcon(R.drawable.abc_ic_clear_mtrl_alpha);
+            builder.setSmallIcon(R.mipmap.ic_launcher);
             builder.setOngoing(true);
             Notification notification = builder.build();
             manager.notify(id, notification);
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 builder.setContentIntent(contentIntent);
                 builder.setContentTitle("Notification Test");
                 builder.setContentText("Hello world!");
-                builder.setSmallIcon(R.drawable.abc_ic_clear_mtrl_alpha);
+                builder.setSmallIcon(R.mipmap.ic_launcher);
                 builder.setTicker("通知来了");
                 //所有提示都是默认
                 builder.setDefaults(Notification.DEFAULT_ALL);
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     builder.setContentIntent(contentIntent);
                     builder.setContentTitle("Notification Test");
                     builder.setContentText("Hello world!");
-                    builder.setSmallIcon(R.drawable.abc_ic_clear_mtrl_alpha);
+                    builder.setSmallIcon(R.mipmap.ic_launcher);
                     builder.setOngoing(true);
                     Notification notification = builder.build();
                     manager.notify(id, notification);
